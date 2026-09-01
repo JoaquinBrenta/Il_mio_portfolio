@@ -2,6 +2,7 @@
 
 import { useUIStyle, UIStyle } from '@/context/styleContext'
 import { Sparkles, Check, CheckCircle2, RotateCcw } from 'lucide-react'
+import { asset } from '@/lib/asset'
 
 interface StyleCard {
   id: UIStyle
@@ -103,7 +104,7 @@ export function PhaseStylePlayground() {
                 {/* CONTENITORE IMMAGINE */}
                 <div className="relative h-48 w-full overflow-hidden border-b-2 border-ink/20 bg-muted">
                   <img
-                    src={st.image}
+                    src={asset(st.image)}
                     alt={st.name}
                     className="h-full w-full object-cover"
                   />

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { ArrowDown, Sparkles } from 'lucide-react'
+import { asset } from '@/lib/asset'
 
 export function Hero() {
   return (
@@ -66,7 +67,7 @@ export function Hero() {
         {/* COLONNA DESTRA: nascosta su mobile, visibile solo >=md */}
         <div className="relative hidden min-h-[400px] w-full border-t-2 border-r-2 border-ink md:block md:border-t-0 md:border-l-0 border-l-2 border-ink">
           <Image
-            src="/illustrations/Hero.png"
+            src={asset("/illustrations/Hero.png")}
             alt="Illustrazione Hero"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"

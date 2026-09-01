@@ -1,4 +1,5 @@
 import { Layout, Server, Wrench, Sparkles } from 'lucide-react'
+import { asset } from '@/lib/asset'
 export function TechStack() {
   const categories = [
     {
@@ -7,7 +8,7 @@ export function TechStack() {
       badge: "UI & Client-Side",
       bgBadge: "bg-bubble darkcyber-gray-span",
       bgSection: "bg-card",
-      bgImage: "/illustrations/Back1.svg",
+      bgImage: asset("/illustrations/Back1.svg"),
       badgeSticky: "Esperienze utente fluide e moderne",
       quoteSticky: (
         <>
@@ -24,47 +25,47 @@ export function TechStack() {
         { 
           title: "Next.js", 
           desc: "Framework full-stack per applicazioni web veloci e ottimizzate per i motori di ricerca.", 
-          icon: "./logos/nextjs.jpeg" 
+          icon: asset("/logos/nextjs.jpeg") 
         },
         { 
           title: "React", 
           desc: "Libreria leader per la creazione di interfacce utente dinamiche, fluide e interattive.", 
-          icon: "./logos/react.png" 
+          icon: asset("/logos/react.png") 
         },
         { 
           title: "Angular", 
           desc: "Framework strutturato per lo sviluppo di applicazioni web complesse ed enterprise.", 
-          icon: "./logos/angular.png" 
+          icon: asset("/logos/angular.png") 
         },
         { 
           title: "Vue.js", 
           desc: "Libreria progressiva per interfacce reattive, leggere e altamente performanti.", 
-          icon: "./logos/vue.png" 
+          icon: asset("/logos/vue.png") 
         },
         { 
           title: "TypeScript Scalability", 
           desc: "Tipizzazione solida per un codice pulito, scalabile e privo di errori imprevisti.", 
-          icon: "./logos/typescript.png"
+          icon: asset("/logos/typescript.png")
         },
         { 
           title: "Tailwind CSS", 
           desc: "Libreria utility-first per design system moderni, unici e curati nei dettagli.", 
-          icon: "./logos/tailwind.png"
+          icon: asset("/logos/tailwind.png")
         },
         { 
           title: "Bootstrap", 
           desc: "Framework CSS affidabile per la creazione rapida di layout responsive e puliti.", 
-          icon: "./logos/bootstrap.png"
+          icon: asset("/logos/bootstrap.png")
         },
         { 
           title: "Figma", 
           desc: "Tool di UI/UX design per prototipi interattivi e interfacce utente su misura.", 
-          icon: "./logos/figma.png"
+          icon: asset("/logos/figma.png")
         },
         { 
           title: "Canva", 
           desc: "Strumento di grafica rapida per materiali visivi coordinati e accattivanti.", 
-          icon: "./logos/canva.png"
+          icon: asset("/logos/canva.png")
         }
       ]
     },
@@ -74,7 +75,7 @@ export function TechStack() {
       badge: "Server & Database",
       bgBadge: "bg-bubble darkcyber-gray-span",
       bgSection: "bg-card",
-      bgImage: "/illustrations/Back2.svg",
+      bgImage: asset("/illustrations/Back2.svg"),
       badgeSticky: "Architetture Scalabili & API",
       quoteSticky: (
         <>
@@ -91,27 +92,27 @@ export function TechStack() {
         { 
           title: "Java", 
           desc: "Linguaggio orientato agli oggetti solido e sicuro per logiche di business complesse.", 
-          icon: "./logos/java.png"
+          icon: asset("/logos/java.png")
         },
         { 
           title: "Spring Boot", 
           desc: "Framework avanzato per la creazione rapida di API REST e servizi backend robusti.", 
-          icon: "./logos/springboot.png"
+          icon: asset("/logos/springboot.png")
         },
         { 
           title: "MySQL", 
           desc: "Database relazionale performante per la gestione organizzata e sicura dei dati.", 
-          icon: "./logos/mysql.png"
+          icon: asset("/logos/mysql.png")
         },
         { 
           title: "PostgreSQL", 
           desc: "Database relazionale avanzato con forte enfasi su estendibilità e integrità.", 
-          icon: "./logos/postgresql.png"
+          icon: asset("/logos/postgresql.png")
         },
         { 
           title: "MongoDB", 
           desc: "Database NoSQL flessibile e orientato ai documenti per grandi volumi di dati.", 
-          icon: "./logos/mongodb.png"
+          icon: asset("/logos/mongodb.png")
         }
       ]
     },
@@ -121,7 +122,7 @@ export function TechStack() {
       badge: "DevOps & Workflow",
       bgBadge: "bg-bubble darkcyber-gray-span",
       bgSection: "bg-card",
-      bgImage: "/illustrations/Back3.svg",
+      bgImage: asset("/illustrations/Back3.svg"),
       badgeSticky: "Automazione & CI/CD",
       quoteSticky: (
         <>
@@ -138,17 +139,17 @@ export function TechStack() {
         { 
           title: "Jira & Scriptrunner", 
           desc: "Gestione avanzata dei task e automazione dei flussi di lavoro aziendali.", 
-          icon: "./logos/jira.png"
+          icon: asset("/logos/jira.png")
         },
         { 
           title: "Docker", 
           desc: "Containerizzazione dei servizi per ambienti di sviluppo coerenti e isolati.", 
-          icon: "./logos/docker.png"
+          icon: asset("/logos/docker.png")
         },
         { 
           title: "Git & GitHub Actions CI/CD", 
           desc: "Controllo versione e pipeline automatizzate per rilasci rapidi e sicuri.", 
-          icon: "./logos/github.png"
+          icon: asset("/logos/github.png")
         },
       ]
     }

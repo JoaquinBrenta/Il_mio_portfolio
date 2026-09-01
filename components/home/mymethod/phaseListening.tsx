@@ -1,4 +1,5 @@
 import { Sparkles, CheckCircle2, Target, Lightbulb } from 'lucide-react'
+import { asset } from '@/lib/asset'
 
 export function PhaseListening() {
   return (
@@ -10,7 +11,7 @@ export function PhaseListening() {
         {/* COLONNA SINISTRA: Video Full-Bleed */}
         <div className="relative min-h-[400px] md:min-h-[500px] w-full border-ink border-l-2 border-b-2 md:border-b-0 border-r-2 md:border-r-0">
           <img
-            src="/illustrations/Talking.svg"
+            src={asset("/illustrations/Talking.svg")}
             alt=""
             className="absolute inset-0 h-full w-full object-cover object-center"
           />

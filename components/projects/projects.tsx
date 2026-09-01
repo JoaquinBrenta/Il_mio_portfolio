@@ -20,6 +20,7 @@ import {
   Tablet,
   type LucideIcon,
 } from "lucide-react"
+import { asset } from "@/lib/asset"
 
 /* =========================================================
    TYPES & HELPERS
@@ -437,10 +438,10 @@ const landingPages = [
       category: "Landing Page",
       description:
         "Un template moderno e responsive per landing page SaaS, progettato per prodotti, strumenti e piattaforme basati su IA. Ideale per mostrare funzionalità di intelligenza artificiale multimodale, caratteristiche, piani tariffari e API per sviluppatori.",
-      image: "./Pixa.png",
+      image: asset("/Pixa.png"),
       laptopImage: "",
-      tabletImage: "./Pixa.png",
-      mobileImage: "./PixaPhone.png",
+      tabletImage: asset("/Pixa.png"),
+      mobileImage: asset("/PixaPhone.png"),
       tags: ["SaaS & AI", "Multimodale", "Developer API"],
       liveUrl: "https://joaquinbrenta.github.io/pixa/",
       githubUrl: "https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/",
@@ -453,10 +454,10 @@ const landingPages = [
       category: "Landing Page",
       description:
         "Un template SaaS elegante e ad alto tasso di conversione per developer tools e assistenti IA. Include layout per funzionalità avanzate, esecuzione locale, gestione versioni, recensioni, pricing e sezione blog.",
-      image: "./Saas.png",
+      image: asset("/Saas.png"),
       laptopImage: "",
-      tabletImage: "./Saas.png",
-      mobileImage: "./SaasPhone.png",
+      tabletImage: asset("/Saas.png"),
+      mobileImage: asset("/SaasPhone.png"),
       tags: ["Developer Tools", "AI Assistant", "Alta Conversione"],
       liveUrl: "https://joaquinbrenta.github.io/saas/",
       githubUrl: "https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/",
@@ -469,10 +470,10 @@ const landingPages = [
       category: "Landing Page",
       description:
         "Tale è il template ideale per agenzie SEO e aziende di digital marketing, progettato per scalare i motori di ricerca, catturare l'attenzione dei clienti e massimizzare le conversioni online.",
-      image: "./Tale.png",
+      image: asset("/Tale.png"),
       laptopImage: "",
-      tabletImage: "./Tale.png",
-      mobileImage: "./TalePhone.png",
+      tabletImage: asset("/Tale.png"),
+      mobileImage: asset("/TalePhone.png"),
       tags: ["Agenzia SEO", "Digital Marketing", "Lead Generation"],
       liveUrl: "https://joaquinbrenta.github.io/tale/",
       githubUrl: "https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/",
@@ -485,10 +486,10 @@ const landingPages = [
       category: "Landing Page",
       description:
         "Un template per landing page pulito, responsive ed elegante, progettato specificamente per ristoranti, bistrot e caffè. Presenta un'atmosfera calda, vetrine con il menu, un modulo di prenotazione tavoli online, testimonianze e dettagli sulla posizione.",
-      image: "./Bistro.png",
+      image: asset("/Bistro.png"),
       laptopImage: "",
-      tabletImage: "./Bistro.png",
-      mobileImage: "./BistroPhone.png",
+      tabletImage: asset("/Bistro.png"),
+      mobileImage: asset("/BistroPhone.png"),
       tags: ["Ristorazione", "Menu Digitale", "Prenotazioni"],
       liveUrl: "https://joaquinbrenta.github.io/bistro/",
       githubUrl: "https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/",
@@ -501,10 +502,10 @@ const landingPages = [
       category: "Landing Page",
       description:
        "Un template per landing page pulito, moderno e professionale, progettato specificamente per autolavaggi, centri di detailing e servizi di cura dell'auto. Include orari di apertura, elenchi dettagliati dei servizi, piani di lavaggio a fasce, un modulo di prenotazione/richiesta online, recensioni dei clienti e una sezione di feedback con valutazione a stelle.",
-      image: "./CarWash.png",
+      image: asset("/CarWash.png"),
       laptopImage: "",
-      tabletImage: "./CarWash.png",
-      mobileImage: "./CarWashPhone.png",
+      tabletImage: asset("/CarWash.png"),
+      mobileImage: asset("/CarWashPhone.png"),
       tags: ["Automotive", "Servizi Locali", "Booking Online"],
       liveUrl: "https://joaquinbrenta.github.io/car-wash/",
       githubUrl: "https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/",
@@ -520,10 +521,10 @@ const landingPages = [
       category: "Multi-Page Web App",
       description:
         "Un sito web d'impatto per un tatuatore professionista, con un look scuro e grintoso. Include una galleria interattiva filtrabile per stili, un suggestivo video di sfondo nella home e un pratico sistema di prenotazione online.",
-      image: "./TattooStudio.png",
+      image: asset("/TattooStudio.png"),
       laptopImage: "",
-      tabletImage: "./TattooStudio.png",
-      mobileImage: "./TattooStudioPhone.png",
+      tabletImage: asset("/TattooStudio.png"),
+      mobileImage: asset("/TattooStudioPhone.png"),
       tags: ["Studio Artistico", "Gallery Interattiva", "Brand d'Impatto"],
       liveUrl: "https://portfolio-tattoo-studio.vercel.app/",
       githubUrl: "https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/",
@@ -536,10 +537,10 @@ const landingPages = [
       category: "Marketplace",
       description:
         "Un marketplace NFT moderno e dinamico per collezionare, comprare e vendere opere d'arte digitali. Offre una galleria interattiva per esplorare le collezioni, profili utente personalizzati e un'esperienza di navigazione fluida e sicura.",
-      image: "./Liberty.png",
+      image: asset("/Liberty.png"),
       laptopImage: "",
-      tabletImage: "./Liberty.png",
-      mobileImage: "./LibertyPhone.png",
+      tabletImage: asset("/Liberty.png"),
+      mobileImage: asset("/LibertyPhone.png"),
       tags: ["Web3 & Crypto", "Collezioni Digitali", "E-commerce"],
       liveUrl: "https://joaquinbrenta.github.io/liberty/",
       githubUrl: "https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/",
@@ -552,10 +553,10 @@ const landingPages = [
       category: "Collaboration",
       description:
         "Una piattaforma di live streaming dinamica e coinvolgente per gamer e creator. Offre dirette fluide, chat in tempo reale, esplorazione delle categorie più popolari e uno spazio interattivo per seguire i propri streamer preferiti.",
-      image: "./Cyborg.png",
+      image: asset("/Cyborg.png"),
       laptopImage: "",
-      tabletImage: "./Cyborg.png",
-      mobileImage: "./CyborgPhone.png",
+      tabletImage: asset("/Cyborg.png"),
+      mobileImage: asset("/CyborgPhone.png"),
       tags: ["Gaming & Creator", "Live Streaming", "Community"],
       liveUrl: "https://joaquinbrenta.github.io/cyborg/",
       githubUrl: "https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/",
@@ -649,7 +650,7 @@ const landingPages = [
    {/* Colonna dell'immagine — nascosta su mobile */}
   <div className="relative hidden md:flex w-full md:w-7/12 h-64 md:h-auto self-stretch bg-card border-x-2 md:border-x-0">
     <img
-      src="/illustrations/PeopleWorking.png"
+      src={asset("/illustrations/PeopleWorking.png")}
       alt="People Working Together"
       className="pointer-events-none absolute inset-0 h-full w-full object-cover object-center md:object-bottom"
     />
@@ -673,7 +674,7 @@ const landingPages = [
               className= "hidden md:inline-flex mb-3 rounded-full border-2 border-ink px-3 py-1 text-xs font-black uppercase shadow-hard-sm bg-bubble"
             >
               <div className="items-center flex gap-1.5 darkcyber-gray-span">
-                <img alt="Pixel Mouse Icon" src="./Pointer.png" className="w-4 h-4" />
+                <img alt="Pixel Mouse Icon" src={asset("/Pointer.png")} className="w-4 h-4" />
                 passa il mouse sullo schermo
               </div>
             </span>
@@ -683,7 +684,7 @@ const landingPages = [
               className= "inline-flex md:hidden mb-3 rounded-full border-2 border-ink px-3 py-1 text-xs font-black uppercase shadow-hard-sm bg-bubble"
             >
               <div className="items-center flex gap-1.5 darkcyber-gray-span">
-                <img alt="Pixel Mouse Icon" src="./Pointer.png" className="w-4 h-4" />
+                <img alt="Pixel Mouse Icon" src={asset("/Pointer.png")} className="w-4 h-4" />
                 clicca sullo schermo
               </div>
             </span>
@@ -818,7 +819,7 @@ const landingPages = [
               className= "hidden md:inline-flex mb-3 rounded-full border-2 border-ink px-3 py-1 text-xs font-black uppercase shadow-hard-sm bg-bubble"
             >
               <div className="items-center flex gap-1.5 darkcyber-gray-span">
-               <img alt="Pixel Mouse Icon" src="./Pointer.png" className="w-4 h-4" />
+               <img alt="Pixel Mouse Icon" src={asset("/Pointer.png")} className="w-4 h-4" />
                 passa il mouse sullo schermo
               </div>
             </span>
@@ -828,7 +829,7 @@ const landingPages = [
               className= "inline-flex md:hidden mb-3 rounded-full border-2 border-ink px-3 py-1 text-xs font-black uppercase shadow-hard-sm bg-bubble"
             >
               <div className="items-center flex gap-1.5 darkcyber-gray-span">
-                <img alt="Pixel Mouse Icon" src="./Pointer.png" className="w-4 h-4" />
+                <img alt="Pixel Mouse Icon" src={asset("/Pointer.png")} className="w-4 h-4" />
                 clicca sullo schermo
               </div>
             </span>

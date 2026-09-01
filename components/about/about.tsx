@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Sparkles, ArrowDown, Briefcase } from 'lucide-react'
 import { Folder } from './folder'
+import { asset } from '@/lib/asset'
 
 export function About() {
   return (
@@ -47,7 +48,7 @@ export function About() {
       {/* DESKTOP: immagine con titolo in overlay — invariato, visibile solo >=md */}
       <div className="relative hidden min-h-[340px] w-full overflow-hidden self-stretch border-b-2 border-l-2 border-r-2 border-ink bg-card sm:min-h-[400px] md:flex md:w-7/12 md:min-h-0 md:border-b-0 md:border-r-0">
         <Image
-          src="/illustrations/Studying.svg"
+          src={asset("/illustrations/Studying.svg")}
           alt="Illustrazione Studying"
           fill
           className="object-cover object-center scale-105 sm:object-left sm:scale-100"

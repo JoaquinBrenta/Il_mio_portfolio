@@ -1,5 +1,6 @@
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 import { Sparkles, CheckCircle2, ShieldCheck } from 'lucide-react'
+import { asset } from '@/lib/asset'
 
 export function PhaseProductLaunch() {
   return (
@@ -8,7 +9,7 @@ export function PhaseProductLaunch() {
       {/* ANIMAZIONE LOTTIE (CORIANDOLI) A TUTTO SCHERMO / INTERA SEZIONE */}
       <div className="pointer-events-none absolute inset-0 z-30 w-full h-full border-x-2 border-ink">
         <DotLottieReact
-          src="/coriandoli.lottie"
+          src={asset("/coriandoli.lottie")}
           autoplay={true}
           loop={false}
           className="w-full h-full object-cover"
@@ -39,7 +40,8 @@ export function PhaseProductLaunch() {
         {/* SFONDO FESTEGGIO.PNG COMPLETO (BG-CONTAIN SENZA TAGLI) */}
         <div 
           aria-hidden 
-          className="pointer-events-none absolute inset-0 w-full h-full bg-[url('/illustrations/festeggio.png')] bg-contain bg-bottom bg-no-repeat opacity-90 z-10" 
+          style={{ backgroundImage: `url(${asset("/illustrations/festeggio.png")})` }}
+          className="pointer-events-none absolute inset-0 w-full h-full bg-contain bg-bottom bg-no-repeat opacity-90 z-10" 
         />
 
         {/* TESTI E INFORMAZIONI AI LATI (RIMOSSO MY-AUTO) */}
