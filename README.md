@@ -4,7 +4,7 @@
 
 Questo è il mio portfolio personale: una presentazione del mio lavoro, del mio metodo e dei progetti realizzati. Non un template, ma il mio spazio per farti capire come lavoro e cosa posso fare per il tuo prossimo prodotto.
 
-**🌐 Live (GitHub Pages):** https://joaquinbrenta.github.io/joaquin_kurt_brenta_portfolio/
+**🌐 Live (GitHub Pages):** https://joaquinbrenta.github.io/Il_mio_portfolio/
 **💼 LinkedIn:** https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/
 **📩 Email:** joaquinbrenta2005@gmail.com
 
