@@ -35,14 +35,14 @@ export function Hero() {
 
             <div className="mt-8 flex flex-nowrap items-center gap-2 sm:gap-4">
               <a
-                href="/projects#landing-pages"
+                href={asset("/projects/#landing-pages")}
                 className="inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-xl border-2 border-ink bg-grape px-2.5 py-3 text-[13px] font-bold leading-none text-primary-foreground shadow-hard transition-hard hover:-translate-y-1 hover:shadow-hard-lg sm:gap-2 sm:px-6 sm:py-3 sm:text-base"
               >
                 Guarda i progetti
                 <ArrowDown size={16} className="shrink-0 sm:size-[18px]" />
               </a>
               <a
-                href="/contact"
+                href={asset("/contact/")}
                 className="inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-xl border-2 border-ink bg-card px-2.5 py-3 text-[13px] font-bold leading-none text-foreground shadow-hard-sm transition-hard hover:-translate-y-1 hover:shadow-hard sm:gap-2 sm:px-6 sm:py-3 sm:text-base"
               >
                 Contattami
