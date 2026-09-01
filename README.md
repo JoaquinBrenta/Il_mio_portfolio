@@ -43,15 +43,6 @@ Hai un'idea? Un form semplice e diretto per raccontarmela: nome, email, tipo di 
 
 ---
 
-## Anteprima
-
-> Sostituisci queste immagini con screenshot reali (consiglio 1280x720)
-
-![Home - Hero](public/preview-hero.png)
-![Projects - Showcase](public/preview-projects.png)
-
----
-
 ## Cerchi qualcuno per il tuo progetto?
 
 Lavoro su **landing page, web app, restyling e consulenze**. Che sia un prodotto da zero o un team da rinforzare, mi adatto al tuo stack e ai tuoi tempi.
