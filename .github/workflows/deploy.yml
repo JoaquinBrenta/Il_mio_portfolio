@@ -33,6 +33,15 @@ jobs:
       - name: Build static export
         run: npm run build
 
+      - name: Verify static export
+        run: |
+          ls -R out | head -n 100
+          echo "--- out size ---"
+          du -sh out
+          test -f out/index.html && echo "✓ out/index.html ok" || (echo "✗ out/index.html missing" && exit 1)
+          test -f out/about/index.html && echo "✓ out/about/index.html ok" || (echo "✗ out/about/index.html missing" && exit 1)
+          test -f out/.nojekyll && echo "✓ .nojekyll ok"
+
       - name: Add .nojekyll
         run: touch out/.nojekyll
 
