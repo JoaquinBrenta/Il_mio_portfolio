@@ -41,28 +41,6 @@ Hai un'idea? Un form semplice e diretto per raccontarmela: nome, email, tipo di 
 - **Pensato per le persone, non solo per i recruiter:** testi chiari, pochi fronzoli, esempi concreti invece di buzzword.
 - **Veloce e accessibile ovunque:** ottimizzato per mobile, performance e accessibilità, con animazioni leggere che non disturbano.
 
----
-
-## Anteprima
-
-> Sostituisci queste immagini con screenshot reali (consiglio 1280x720)
-
-![Home - Hero](public/preview-hero.png)
-![Projects - Showcase](public/preview-projects.png)
-
----
-
-## Cerchi qualcuno per il tuo progetto?
-
-Lavoro su **landing page, web app, restyling e consulenze**. Che sia un prodotto da zero o un team da rinforzare, mi adatto al tuo stack e ai tuoi tempi.
-
-**Scrivimi:**
-- Email: [joaquinbrenta2005@gmail.com](mailto:joaquinbrenta2005@gmail.com)
-- LinkedIn: [joaquin-kurt-brenta](https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/)
-- WhatsApp: [+39 320 869 5095](https://wa.me/393208695095)
-
----
-
 <details>
 <summary>Per sviluppatori — tech stack & avvio rapido</summary>
 
