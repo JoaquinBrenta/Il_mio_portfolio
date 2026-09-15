@@ -10,7 +10,7 @@ export function SiteFooter() {
   return (
     <footer className="w-full">
       {/* Stesso contenitore della navbar: border-2 border-ink bg-card — centrato su mobile */}
-      <div className="flex flex-col items-center gap-4 border-x-2 border-b-2 border-ink bg-card px-4 py-6 text-center md:flex-row md:items-center md:justify-between md:gap-3 md:py-3 md:text-left">
+      <div className="flex flex-col items-center gap-4 border-x-2 border-b-2 border-t-2 border-ink bg-card px-4 py-6 text-center md:flex-row md:items-center md:justify-between md:gap-3 md:py-3 md:text-left">
         {/* Left — brand identico alla navbar, centrato su mobile */}
         <Link href="/" className="flex items-center justify-center gap-2 md:justify-start">
           <span className="flex h-8 w-8 items-center justify-center rounded-lg border-2 border-ink bg-grape font-display text-sm font-bold text-primary-foreground">
