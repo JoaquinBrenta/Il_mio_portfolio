@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+  <!-- Back3 - Enterprise: professional Memphis, forme grandi come Frontend -->
+  <!-- Palette: ink, grape, sun, bubble -->
+
+  <!-- Grandi forme di sfondo -->
+  <circle cx="200" cy="250" r="140" fill="#1a1a2e" opacity="0.2"/>
+  <circle cx="1400" cy="280" r="150" fill="#807dfa" opacity="0.22"/>
+  <circle cx="280" cy="1300" r="145" fill="#ffe500" opacity="0.2"/>
+  <circle cx="1350" cy="1350" r="155" fill="#1a1a2e" opacity="0.18"/>
+  <circle cx="800" cy="750" r="120" fill="#807dfa" opacity="0.1"/>
+  <circle cx="400" cy="700" r="100" fill="#ffe500" opacity="0.08"/>
+  <circle cx="1200" cy="600" r="110" fill="#fa8cef" opacity="0.08"/>
+
+  <!-- Triangoli grandi -->
+  <polygon points="400,60 540,60 470,180" fill="#807dfa" opacity="0.4"/>
+  <polygon points="1100,120 1220,120 1160,240" fill="#ffe500" opacity="0.35"/>
+  <polygon points="130,850 260,850 195,980" fill="#fa8cef" opacity="0.35"/>
+  <polygon points="1180,900 1320,900 1250,1040" fill="#807dfa" opacity="0.35"/>
+  <polygon points="650,1200 780,1200 715,1330" fill="#ffe500" opacity="0.3"/>
+  <polygon points="300,400 400,400 350,500" fill="#fa8cef" opacity="0.3"/>
+  <polygon points="1300,450 1400,450 1350,550" fill="#807dfa" opacity="0.3"/>
+
+  <!-- Onde -->
+  <path d="M60,380 Q130,330 200,380 Q270,430 340,380 Q410,330 480,380" fill="none" stroke="#ffe500" stroke-width="7" opacity="0.5"/>
+  <path d="M60,402 Q130,352 200,402 Q270,452 340,402 Q410,352 480,402" fill="none" stroke="#1a1a2e" stroke-width="4" opacity="0.18"/>
+  <path d="M900,500 Q980,450 1060,500 Q1140,550 1220,500 Q1300,450 1380,500" fill="none" stroke="#807dfa" stroke-width="7" opacity="0.4"/>
+  <path d="M900,522 Q980,472 1060,522 Q1140,572 1220,522 Q1300,472 1380,522" fill="none" stroke="#1a1a2e" stroke-width="4" opacity="0.18"/>
+  <path d="M250,1100 Q330,1050 410,1100 Q490,1150 570,1100" fill="none" stroke="#fa8cef" stroke-width="6" opacity="0.45"/>
+  <path d="M1000,1250 Q1080,1200 1160,1250 Q1240,1300 1320,1250 Q1400,1200 1480,1250" fill="none" stroke="#ffe500" stroke-width="6" opacity="0.4"/>
+  <path d="M500,200 Q560,160 620,200 Q680,240 740,200" fill="none" stroke="#fa8cef" stroke-width="5" opacity="0.4"/>
+
+  <!-- Zigzag -->
+  <polyline points="520,250 555,215 590,250 625,215 660,250 695,215" fill="none" stroke="#807dfa" stroke-width="6" opacity="0.45"/>
+  <polyline points="750,1000 785,965 820,1000 855,965 890,1000 925,965 960,1000" fill="none" stroke="#ffe500" stroke-width="6" opacity="0.4"/>
+  <polyline points="200,600 230,575 260,600 290,575 320,600" fill="none" stroke="#fa8cef" stroke-width="5" opacity="0.4"/>
+
+  <!-- Cerchi medi e piccoli -->
+  <circle cx="600" cy="180" r="45" fill="#ffe500" opacity="0.45"/>
+  <circle cx="600" cy="180" r="15" fill="#1a1a2e" opacity="0.25"/>
+  <circle cx="950" cy="300" r="40" fill="#fa8cef" opacity="0.45"/>
+  <circle cx="950" cy="300" r="14" fill="#1a1a2e" opacity="0.2"/>
+  <circle cx="450" cy="600" r="50" fill="#807dfa" opacity="0.35"/>
+  <circle cx="450" cy="600" r="16" fill="#1a1a2e" opacity="0.18"/>
+  <circle cx="1150" cy="600" r="42" fill="#ffe500" opacity="0.35"/>
+  <circle cx="1150" cy="600" r="14" fill="#1a1a2e" opacity="0.18"/>
+  <circle cx="180" cy="680" r="35" fill="#fa8cef" opacity="0.4"/>
+  <circle cx="1400" cy="750" r="46" fill="#807dfa" opacity="0.35"/>
+  <circle cx="650" cy="850" r="40" fill="#ffe500" opacity="0.3"/>
+  <circle cx="650" cy="850" r="13" fill="#1a1a2e" opacity="0.18"/>
+  <circle cx="1350" cy="420" r="32" fill="#fa8cef" opacity="0.4"/>
+  <circle cx="320" cy="420" r="36" fill="#807dfa" opacity="0.35"/>
+  <circle cx="800" cy="450" r="38" fill="#ffe500" opacity="0.3"/>
+  <circle cx="1000" cy="800" r="35" fill="#fa8cef" opacity="0.35"/>
+  <circle cx="200" cy="1000" r="40" fill="#807dfa" opacity="0.3"/>
+  <circle cx="1400" cy="1000" r="38" fill="#ffe500" opacity="0.3"/>
+
+  <!-- Rettangoli e quadrati ruotati -->
+  <rect x="700" y="120" width="55" height="55" rx="6" fill="#807dfa" opacity="0.45" transform="rotate(15 727 147)"/>
+  <rect x="260" y="550" width="50" height="50" rx="5" fill="#ffe500" opacity="0.4" transform="rotate(-12 285 575)"/>
+  <rect x="1050" y="720" width="58" height="58" rx="6" fill="#fa8cef" opacity="0.35" transform="rotate(20 1079 749)"/>
+  <rect x="520" y="1050" width="52" height="52" rx="5" fill="#807dfa" opacity="0.4" transform="rotate(-15 546 1076)"/>
+  <rect x="1320" y="950" width="46" height="46" rx="5" fill="#ffe500" opacity="0.35" transform="rotate(12 1343 973)"/>
+  <rect x="130" y="1050" width="54" height="54" rx="6" fill="#fa8cef" opacity="0.35" transform="rotate(-8 157 1077)"/>
+  <rect x="900" y="150" width="44" height="44" rx="5" fill="#ffe500" opacity="0.35" transform="rotate(10 922 172)"/>
+  <rect x="400" y="900" width="48" height="48" rx="5" fill="#807dfa" opacity="0.35" transform="rotate(-10 424 924)"/>
+
+  <!-- Griglie di puntini -->
+  <g opacity="0.28">
+    <circle cx="850" cy="180" r="7" fill="#1a1a2e"/><circle cx="880" cy="180" r="7" fill="#1a1a2e"/><circle cx="910" cy="180" r="7" fill="#1a1a2e"/>
+    <circle cx="850" cy="210" r="7" fill="#1a1a2e"/><circle cx="880" cy="210" r="7" fill="#1a1a2e"/><circle cx="910" cy="210" r="7" fill="#1a1a2e"/>
+    <circle cx="850" cy="240" r="7" fill="#1a1a2e"/><circle cx="880" cy="240" r="7" fill="#1a1a2e"/><circle cx="910" cy="240" r="7" fill="#1a1a2e"/>
+  </g>
+  <g opacity="0.22">
+    <circle cx="180" cy="500" r="8" fill="#1a1a2e"/><circle cx="212" cy="500" r="8" fill="#1a1a2e"/><circle cx="244" cy="500" r="8" fill="#1a1a2e"/>
+    <circle cx="180" cy="532" r="8" fill="#1a1a2e"/><circle cx="212" cy="532" r="8" fill="#1a1a2e"/><circle cx="244" cy="532" r="8" fill="#1a1a2e"/>
+    <circle cx="180" cy="564" r="8" fill="#1a1a2e"/><circle cx="212" cy="564" r="8" fill="#1a1a2e"/><circle cx="244" cy="564" r="8" fill="#1a1a2e"/>
+  </g>
+  <g opacity="0.22">
+    <circle cx="1250" cy="1100" r="8" fill="#1a1a2e"/><circle cx="1284" cy="1100" r="8" fill="#1a1a2e"/><circle cx="1318" cy="1100" r="8" fill="#1a1a2e"/>
+    <circle cx="1250" cy="1134" r="8" fill="#1a1a2e"/><circle cx="1284" cy="1134" r="8" fill="#1a1a2e"/><circle cx="1318" cy="1134" r="8" fill="#1a1a2e"/>
+    <circle cx="1250" cy="1168" r="8" fill="#1a1a2e"/><circle cx="1284" cy="1168" r="8" fill="#1a1a2e"/><circle cx="1318" cy="1168" r="8" fill="#1a1a2e"/>
+  </g>
+  <g opacity="0.18">
+    <circle cx="720" cy="620" r="6" fill="#1a1a2e"/><circle cx="746" cy="620" r="6" fill="#1a1a2e"/><circle cx="772" cy="620" r="6" fill="#1a1a2e"/><circle cx="798" cy="620" r="6" fill="#1a1a2e"/>
+    <circle cx="720" cy="646" r="6" fill="#1a1a2e"/><circle cx="746" cy="646" r="6" fill="#1a1a2e"/><circle cx="772" cy="646" r="6" fill="#1a1a2e"/><circle cx="798" cy="646" r="6" fill="#1a1a2e"/>
+    <circle cx="720" cy="672" r="6" fill="#1a1a2e"/><circle cx="746" cy="672" r="6" fill="#1a1a2e"/><circle cx="772" cy="672" r="6" fill="#1a1a2e"/><circle cx="798" cy="672" r="6" fill="#1a1a2e"/>
+  </g>
+  <g opacity="0.2">
+    <circle cx="400" cy="1200" r="6" fill="#1a1a2e"/><circle cx="424" cy="1200" r="6" fill="#1a1a2e"/><circle cx="448" cy="1200" r="6" fill="#1a1a2e"/>
+    <circle cx="400" cy="1224" r="6" fill="#1a1a2e"/><circle cx="424" cy="1224" r="6" fill="#1a1a2e"/><circle cx="448" cy="1224" r="6" fill="#1a1a2e"/>
+  </g>
+
+  <!-- Linee -->
+  <line x1="60" y1="800" x2="220" y2="800" stroke="#ffe500" stroke-width="8" opacity="0.45"/>
+  <line x1="60" y1="820" x2="170" y2="820" stroke="#807dfa" stroke-width="5" opacity="0.35"/>
+  <line x1="1150" y1="360" x2="1320" y2="360" stroke="#fa8cef" stroke-width="8" opacity="0.4"/>
+  <line x1="1150" y1="380" x2="1280" y2="380" stroke="#ffe500" stroke-width="5" opacity="0.35"/>
+  <line x1="380" y1="1350" x2="560" y2="1350" stroke="#807dfa" stroke-width="7" opacity="0.35"/>
+  <line x1="900" y1="1300" x2="1080" y2="1300" stroke="#ffe500" stroke-width="7" opacity="0.35"/>
+  <line x1="600" y1="350" x2="720" y2="350" stroke="#fa8cef" stroke-width="6" opacity="0.4"/>
+
+  <!-- Croci / plus -->
+  <g fill="#ffe500" opacity="0.4">
+    <rect x="1080" y="170" width="14" height="46" rx="3"/><rect x="1062" y="188" width="46" height="14" rx="3"/>
+  </g>
+  <g fill="#807dfa" opacity="0.4">
+    <rect x="380" y="850" width="16" height="50" rx="3"/><rect x="360" y="870" width="50" height="16" rx="3"/>
+  </g>
+  <g fill="#fa8cef" opacity="0.35">
+    <rect x="1380" y="550" width="14" height="42" rx="3"/><rect x="1362" y="566" width="42" height="14" rx="3"/>
+  </g>
+  <g fill="#ffe500" opacity="0.35">
+    <rect x="700" y="1100" width="14" height="44" rx="3"/><rect x="682" y="1118" width="44" height="14" rx="3"/>
+  </g>
+
+  <!-- Diamanti -->
+  <polygon points="650,420 676,394 702,420 676,446" fill="#1a1a2e" opacity="0.22"/>
+  <polygon points="1100,800 1128,772 1156,800 1128,828" fill="#ffe500" opacity="0.35"/>
+  <polygon points="260,300 282,278 304,300 282,322" fill="#807dfa" opacity="0.35"/>
+  <polygon points="900,1150 924,1126 948,1150 924,1174" fill="#fa8cef" opacity="0.3"/>
+  <polygon points="500,750 520,730 540,750 520,770" fill="#ffe500" opacity="0.3"/>
+
+  <!-- X marks -->
+  <g stroke="#1a1a2e" stroke-width="5" stroke-linecap="round" opacity="0.18">
+    <line x1="480" y1="470" x2="506" y2="496"/><line x1="506" y1="470" x2="480" y2="496"/>
+    <line x1="1020" y1="620" x2="1046" y2="646"/><line x1="1046" y1="620" x2="1020" y2="646"/>
+    <line x1="580" y1="1200" x2="606" y2="1226"/><line x1="606" y1="1200" x2="580" y2="1226"/>
+    <line x1="1200" y1="250" x2="1222" y2="272"/><line x1="1222" y1="250" x2="1200" y2="272"/>
+  </g>
+
+  <!-- Archi / semicerchi -->
+  <path d="M120,170 A60,60 0 0,1 240,170" fill="none" stroke="#807dfa" stroke-width="6" opacity="0.45"/>
+  <path d="M1250,850 A70,70 0 0,1 1390,850" fill="none" stroke="#ffe500" stroke-width="6" opacity="0.4"/>
+  <path d="M700,1300 A52,52 0 0,1 804,1300" fill="none" stroke="#fa8cef" stroke-width="6" opacity="0.4"/>
+  <path d="M300,150 A40,40 0 0,1 380,150" fill="none" stroke="#ffe500" stroke-width="5" opacity="0.4"/>
+
+  <!-- Elementi extra sparsi -->
+  <rect x="880" y="850" width="18" height="18" rx="2" fill="#1a1a2e" opacity="0.18"/>
+  <rect x="908" y="850" width="18" height="18" rx="2" fill="#ffe500" opacity="0.3"/>
+  <rect x="880" y="878" width="18" height="18" rx="2" fill="#807dfa" opacity="0.3"/>
+  <rect x="908" y="878" width="18" height="18" rx="2" fill="#1a1a2e" opacity="0.15"/>
+
+  <circle cx="120" cy="1300" r="22" fill="#807dfa" opacity="0.35"/>
+  <circle cx="1450" cy="170" r="26" fill="#fa8cef" opacity="0.3"/>
+  <circle cx="780" cy="1400" r="24" fill="#ffe500" opacity="0.3"/>
+  <circle cx="780" cy="120" r="20" fill="#1a1a2e" opacity="0.2"/>
+  <circle cx="1100" cy="1300" r="20" fill="#807dfa" opacity="0.25"/>
+
+  <polygon points="1380,1250 1406,1224 1432,1250 1406,1276" fill="#807dfa" opacity="0.35"/>
+  <polygon points="170,110 190,90 210,110 190,130" fill="#ffe500" opacity="0.35"/>
+  <polygon points="1000,100 1018,82 1036,100 1018,118" fill="#807dfa" opacity="0.35"/>
+
+  <!-- Extra elementi per densità -->
+  <circle cx="550" cy="500" r="25" fill="#fa8cef" opacity="0.3"/>
+  <circle cx="1050" cy="1050" r="28" fill="#807dfa" opacity="0.3"/>
+  <rect x="150" y="750" width="30" height="30" rx="4" fill="#ffe500" opacity="0.3" transform="rotate(8 165 765)"/>
+  <rect x="1450" y="600" width="32" height="32" rx="4" fill="#fa8cef" opacity="0.3" transform="rotate(-6 1466 616)"/>
+  <path d="M400,1050 Q430,1020 460,1050 Q490,1080 520,1050" fill="none" stroke="#807dfa" stroke-width="4" opacity="0.35"/>
+  <path d="M1100,200 Q1130,170 1160,200 Q1190,230 1220,200" fill="none" stroke="#ffe500" stroke-width="4" opacity="0.3"/>
+</svg>
