@@ -3,8 +3,8 @@ import { Mail, Briefcase, Phone } from 'lucide-react'
 
 const GMAIL = 'joaquinbrenta2005@gmail.com'
 const LINKEDIN = 'https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/'
-const PHONE_DISPLAY = '+39 320 869 5095'
-const PHONE_TEL = '+393208695095'
+const PHONE_DISPLAY = '+39 347 331 9923'
+const PHONE_TEL = '+393473319923'
 
 export function SiteFooter() {
   return (
