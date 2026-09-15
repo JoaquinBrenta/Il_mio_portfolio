@@ -55,7 +55,7 @@ export function Phase360Dedication() {
           </h2>
 
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Un sito web straordinario non nasce per caso. È il risultato di dedizione, ascolto e un'attenzione quasi ossessiva per i dettagli visivi e tecnici. Esamino ogni componente da ogni prospettiva.
+            Passo dal quadro generale ai singoli componenti: controllo spaziature, interazioni e comportamento sui diversi schermi. Poi torno sul codice per renderlo più chiaro e facile da mantenere.
           </p>
 
           <div className="mt-8 space-y-4">
@@ -84,8 +84,8 @@ export function Phase360Dedication() {
                 <HeartHandshake size={20} />
               </div>
               <div>
-                <h4 className="font-bold text-foreground">Passione & Supporto Continuo</h4>
-                <p className="text-sm text-muted-foreground">Non considero mai un lavoro "finito" finché non supera le tue aspettative.</p>
+                <h4 className="font-bold text-foreground">Confronto & Miglioramento</h4>
+                <p className="text-sm text-muted-foreground">Raccolgo feedback, rivedo le scelte e uso ogni progetto per imparare qualcosa.</p>
               </div>
             </div>
           </div>
@@ -228,7 +228,7 @@ export function Phase360Dedication() {
                     <Sparkles size={16} className="text-grape" />
                   </div>
                   <p className="text-xs text-muted-foreground leading-relaxed">
-                    Dietro ogni interfaccia pulita c'è una struttura solida, veloce e costruita a regola d'arte con tolleranza zero per le imperfezioni.
+                    Dietro ogni interfaccia lavoro su struttura, gestione dei dati e logica: la parte meno visibile che fa funzionare il progetto.
                   </p>
                 </div>
 

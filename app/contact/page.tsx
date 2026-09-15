@@ -6,7 +6,7 @@ export default function ContattiPage() {
   return (
     <main className="flex min-h-dvh flex-col bg-background">
       <SiteNav />
-      <div className="flex-1">
+      <div className="flex flex-1 flex-col">
         <Contact />
       </div>
       <SiteFooter />

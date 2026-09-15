@@ -44,13 +44,13 @@ export function SiteNav() {
           href="/contact"
           className="darkcyber-purple-span hidden rounded-lg border-2 border-ink bg-sun px-4 py-2 text-sm font-bold text-accent-foreground shadow-hard-sm transition-hard hover:-translate-y-0.5 hover:shadow-hard md:inline-block"
         >
-          Let&apos;s work together
+          Facciamo due chiacchiere
         </Link>
 
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
-          className="flex h-10 w-10 items-center justify-center rounded-lg border-2 border-ink bg-bubble text-ink md:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-lg border-2 border-ink bg-bubble text-foreground md:hidden"
           aria-label={open ? 'Chiudi menu' : 'Apri menu'}
           aria-expanded={open}
         >
@@ -66,7 +66,7 @@ export function SiteNav() {
                 <Link
                   href={l.href}
                   onClick={() => setOpen(false)}
-                  className="block rounded-lg px-3 py-3 text-sm font-semibold hover:bg-accent"
+                  className="block rounded-lg px-3 py-3 text-sm font-semibold text-foreground focus-visible:bg-accent focus-visible:text-accent-foreground"
                 >
                   {l.label}
                 </Link>
@@ -78,7 +78,7 @@ export function SiteNav() {
                 onClick={() => setOpen(false)}
                 className="darkcyber-gray-span mt-1 block rounded-lg border-2 border-ink bg-sun px-3 py-3 text-center text-sm font-bold text-accent-foreground"
               >
-                Let&apos;s work together
+                Facciamo due chiacchiere
               </Link>
             </li>
           </ul>

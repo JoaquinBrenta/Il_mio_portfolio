@@ -3,7 +3,6 @@ import { Briefcase } from 'lucide-react'
 const items = [
   { title: 'Front-End Developer', sub: 'Autodidatta', period: '2024 — 2026' },
   { title: 'Developer', sub: 'Exprivia', period: '2026 — Presente' },
-  { title: 'Full Stack Developer', sub: 'Freelancer', period: '2026 — Presente' },
 ]
 
 export function Esperienza() {

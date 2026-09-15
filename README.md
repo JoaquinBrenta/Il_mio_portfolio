@@ -4,7 +4,7 @@
 
 Questo è il mio portfolio personale: una presentazione del mio lavoro, del mio metodo e dei progetti realizzati. Non un template, ma il mio spazio per farti capire come lavoro e cosa posso fare per il tuo prossimo prodotto.
 
-**🌐 Live (GitHub Pages):** https://joaquinbrenta.github.io/Il_mio_portfolio/
+**🌐 Live (GitHub Pages):** https://joaquinbrenta.github.io/joaquin_kurt_brenta_portfolio/
 **💼 LinkedIn:** https://www.linkedin.com/in/joaquin-kurt-brenta-6879b9351/
 **📩 Email:** joaquinbrenta2005@gmail.com
 
@@ -40,6 +40,15 @@ Hai un'idea? Un form semplice e diretto per raccontarmela: nome, email, tipo di 
 - **Design che comunica:** stile neo-brutalist con tre anime (Default vivace, Minimal pulito, Dark Cyber neon) — scegli tu come vuoi vederlo.
 - **Pensato per le persone, non solo per i recruiter:** testi chiari, pochi fronzoli, esempi concreti invece di buzzword.
 - **Veloce e accessibile ovunque:** ottimizzato per mobile, performance e accessibilità, con animazioni leggere che non disturbano.
+
+---
+
+## Anteprima
+
+> Sostituisci queste immagini con screenshot reali (consiglio 1280x720)
+
+![Home - Hero](public/preview-hero.png)
+![Projects - Showcase](public/preview-projects.png)
 
 ---
 

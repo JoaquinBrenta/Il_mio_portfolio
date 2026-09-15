@@ -1,6 +1,6 @@
+import { asset } from '@/lib/asset'
 import Image from 'next/image'
 import { ArrowDown, Sparkles } from 'lucide-react'
-import { asset } from '@/lib/asset'
 
 export function Hero() {
   return (
@@ -13,7 +13,7 @@ export function Hero() {
           <div>
             <span className="darkcyber-gray-span inline-flex items-center gap-2 rounded-full border-2 border-ink bg-sun px-4 py-1.5 text-sm font-bold text-accent-foreground shadow-hard-sm">
               <Sparkles size={16} />
-              Disponibile per nuovi progetti
+              Il mio modo di sviluppare
             </span>
 <h1 className="mt-6 text-balance font-display text-4xl font-extrabold leading-[0.95] tracking-tight text-foreground md:text-6xl">
   Ciao, sono <span className="text-grape">Joaquin</span>.
@@ -30,7 +30,7 @@ export function Hero() {
 </h1>
 
             <p className="mt-6 max-w-md text-pretty text-lg leading-relaxed text-muted-foreground">
-             Progetto e sviluppo applicazioni web. Performance, accessibilità e design al servizio del tuo business.
+             Qui raccolgo progetti, esperimenti e il mio modo di lavorare: come ragiono sulle interfacce, organizzo il codice e collego frontend e backend.
             </p>
 
             <div className="mt-8 flex flex-nowrap items-center gap-2 sm:gap-4">
@@ -52,7 +52,7 @@ export function Hero() {
             <dl className="mt-10 flex gap-8">
               {[
                 { n: '2+', l: 'Anni di esperienza' },
-                { n: '20+', l: 'Tecnologie padroneggiate' },
+                { n: '20+', l: 'Tecnologie utilizzate' },
                 { n: '100+', l: 'Progetti ed esercitazioni' },
               ].map((s) => (
                 <div key={s.l}>

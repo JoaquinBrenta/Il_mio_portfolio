@@ -1,8 +1,10 @@
 'use client'
 
+import { asset } from '@/lib/asset'
+
+
 import { useUIStyle, UIStyle } from '@/context/styleContext'
 import { Sparkles, Check, CheckCircle2, RotateCcw } from 'lucide-react'
-import { asset } from '@/lib/asset'
 
 interface StyleCard {
   id: UIStyle
@@ -23,14 +25,14 @@ const stylesList: StyleCard[] = [
   {
     id: 'minimal',
     name: 'Material design',
-    desc: 'Linee sottili, spazi ampi e grande eleganza. Ideale per brand corporate.',
+    desc: 'Linee sottili, spazi ampi e grande eleganza. Un approccio essenziale alle interfacce.',
     tag: 'Corporate & Clean',
     image: '/styles/MaterialDesign.jpg', // Sostituisci con il tuo percorso immagine
   },
   {
     id: 'darkcyber',
     name: 'Neon Lights',
-    desc: 'Sfondo scuro con contrasti neon cyan e purple. Perfetto per SaaS e Web3.',
+    desc: 'Sfondo scuro con contrasti neon cyan e purple. Un esperimento con luce e contrasto.',
     tag: 'SaaS & Tech',
     image: '/styles/Neon.jpg', // Sostituisci con il tuo percorso immagine
   },
@@ -58,9 +60,9 @@ export function PhaseStylePlayground() {
 
         {/* TITOLO CENTRATO */}
         <h2 className="mt-6 font-display text-4xl font-extrabold leading-[0.95] tracking-tight text-foreground md:text-6xl">
-          Il design lo scegli tu <br />
+          Esploro linguaggi visivi <br />
           <span className="relative mt-2 inline-block">
-            <span className="relative z-10">in base al tuo stile.</span>
+            <span className="relative z-10">e li metto alla prova.</span>
             <span
               aria-hidden
               className="absolute inset-x-0 bottom-1 z-0 h-4 -rotate-1 bg-bubble"
@@ -140,7 +142,7 @@ export function PhaseStylePlayground() {
           <div className="flex items-center gap-3">
             <CheckCircle2 size={24} className="shrink-0 text-grape" />
             <p className="text-sm font-semibold text-foreground">
-              <strong className="text-grape">Risultato della fase:</strong> Flessibilità totale per adattarsi all'identità visiva del tuo brand.
+              <strong className="text-grape">Risultato della fase:</strong> Un confronto concreto tra modi diversi di interpretare la stessa interfaccia.
             </p>
           </div>
 

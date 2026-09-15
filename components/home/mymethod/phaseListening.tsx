@@ -1,5 +1,5 @@
-import { Sparkles, CheckCircle2, Target, Lightbulb } from 'lucide-react'
 import { asset } from '@/lib/asset'
+import { Sparkles, CheckCircle2, Target, Lightbulb } from 'lucide-react'
 
 export function PhaseListening() {
   return (
@@ -54,7 +54,7 @@ export function PhaseListening() {
 
             {/* DESCRIZIONE */}
             <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
-              Prima di toccare qualsiasi riga di codice o sketch grafico, mi siedo al tuo fianco (o in video call) per capire a fondo la tua visione. Non creo solo un sito web, ma uno strumento pensato per raggiungere i tuoi obiettivi.
+              Prima di scrivere codice, cerco di capire il problema. Faccio domande, raccolgo il contesto e confronto le idee con chi lavora al progetto, per dare una direzione alle scelte tecniche e visive.
             </p>
 
             {/* PUNTI CHIAVE NEO-BRUTALIST */}
@@ -64,8 +64,8 @@ export function PhaseListening() {
                   <Target size={20} />
                 </div>
                 <div>
-                  <h3 className="font-display font-bold text-foreground">Obiettivi di Business</h3>
-                  <p className="mt-1 text-sm text-muted-foreground">Definiamo cosa deve ottenere il tuo sito (lead, vendite, brand awareness).</p>
+                  <h3 className="font-display font-bold text-foreground">Problema & Obiettivi</h3>
+                  <p className="mt-1 text-sm text-muted-foreground">Chiarisco cosa deve fare il progetto e quali problemi deve risolvere.</p>
                 </div>
               </div>
 
@@ -75,7 +75,7 @@ export function PhaseListening() {
                 </div>
                 <div>
                   <h3 className="font-display font-bold text-foreground">Target & Utenti</h3>
-                  <p className="mt-1 text-sm text-muted-foreground">Analizziamo chi userà l'applicazione e di cosa ha realmente bisogno.</p>
+                  <p className="mt-1 text-sm text-muted-foreground">Mi chiedo chi userà il progetto e cosa gli serve per usarlo con facilità.</p>
                 </div>
               </div>
             </div>

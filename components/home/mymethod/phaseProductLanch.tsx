@@ -1,6 +1,6 @@
+import { asset } from '@/lib/asset'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 import { Sparkles, CheckCircle2, ShieldCheck } from 'lucide-react'
-import { asset } from '@/lib/asset'
 
 export function PhaseProductLaunch() {
   return (
@@ -30,7 +30,7 @@ export function PhaseProductLaunch() {
 
         <h2 className="font-display text-4xl font-extrabold leading-[0.95] tracking-tight text-foreground md:text-5xl">
           Pronti al decollo.<br />
-          <span className="text-grape">Lancio senza stress e sorprese.</span>
+          <span className="text-grape">Dal codice al progetto online.</span>
         </h2>
       </div>
 
@@ -50,10 +50,10 @@ export function PhaseProductLaunch() {
           <div className="flex w-full max-w-sm flex-col gap-3 text-center lg:text-left backdrop-blur-sm p-4 rounded-2xl border-2 border-ink inline-flex items-center gap-2 bg-card px-6 py-3 font-bold text-foreground shadow-hard-sm transition-hard hover:-translate-y-1 hover:shadow-hard justify-self-center">
             <div className="flex items-center justify-center gap-2 font-display font-black text-ink">
               <CheckCircle2 size={22} className="text-grape shrink-0" />
-              <span className="text-xl text-black darkcyber-gray-span">Online in Tempo Record</span>
+              <span className="text-xl text-black darkcyber-gray-span">Pubblicazione & Verifiche</span>
             </div>
             <p className="text-base font-medium text-muted-foreground leading-relaxed text-center">
-              Aggiornamenti rapidi e continui senza mai bloccare il tuo sito o interrompere il servizio per i tuoi clienti.
+              Preparo il rilascio, verifico i flussi principali e controllo che il progetto funzioni anche fuori dal mio ambiente di sviluppo.
             </p>
           </div>
 
@@ -61,10 +61,10 @@ export function PhaseProductLaunch() {
           <div className="flex w-full max-w-sm flex-col gap-3 text-center lg:text-left backdrop-blur-sm p-4 rounded-2xl border-2 border-ink inline-flex items-center gap-2 bg-card px-6 py-3 font-bold text-foreground shadow-hard-sm transition-hard hover:-translate-y-1 hover:shadow-hard justify-self-center">
             <div className="flex items-center justify-center gap-2 font-display font-black text-ink">
               <ShieldCheck size={22} className="text-grape shrink-0" />
-              <span className="text-xl text-black darkcyber-gray-span">Sito Sicuro e Protetto</span>
+              <span className="text-xl text-black darkcyber-gray-span">Osservare & Migliorare</span>
             </div>
             <p className="text-base font-medium text-muted-foreground leading-relaxed text-center">
-              Monitoraggio costante, protezione totale dei dati e massima affidabilità per dormire sempre sonni tranquilli.
+              Dopo la pubblicazione raccolgo feedback e cerco errori o punti da migliorare: anche questa fase fa parte del mio lavoro.
             </p>
           </div>
 
